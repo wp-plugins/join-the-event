@@ -1,0 +1,48 @@
+.jte-table, .jte-row,
+.jte-table input[type=text],
+.jte-table input[type=url],
+.jte-table input[type=date],
+.jte-table textarea {
+	width: 100%;
+}
+
+.jte-row {
+	vertical-align: top;
+}
+
+.inner-sidebar .jte-row {
+	display: inline-block;
+	padding: 10px 0;
+	border-bottom: 1px solid #eee;
+}
+
+.inner-sidebar .jte-row:last-child {
+	border-bottom: none;
+}
+
+.jte-label-cell {
+	width: 200px;
+}
+
+.inner-sidebar .jte-cell {
+	width: 100%;
+	display: block
+}
+
+.jte-label-cell label {
+	cursor: default;
+	display: inline-block;
+	padding: 3px 0 0 0;
+}
+
+.jte-form-element {
+	vertical-align: middle;
+}
+
+.jte-table textarea {
+	min-height: 200px;
+}
+
+.file-output {
+	display: block;
+}

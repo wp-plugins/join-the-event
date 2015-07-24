@@ -1,0 +1,426 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Join the Event 1.0\n"
+"POT-Creation-Date: 2015-07-23 10:11+0200\n"
+"PO-Revision-Date: 2015-07-23 10:11+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/functions.php:9
+msgid "E-Mail Sender"
+msgstr "E-Mail Absender"
+
+#: admin/functions.php:11
+msgid "E-Mail Sender Address"
+msgstr "E-Mail Absender Adresse"
+
+#: admin/functions.php:17 admin/functions.php:18
+#: admin/menu-pages/overview.php:25
+msgid "Overview"
+msgstr "Übersicht"
+
+#: admin/functions.php:17 admin/functions.php:122 admin/functions.php:123
+#: join-the-event.php:49 templates/guestlist.php:6 templates/guestlist.php:11
+msgid "Guestlist"
+msgstr "Gästeliste"
+
+#: admin/functions.php:19 admin/menu-pages/settings.php:3
+msgid "Join the Event (Settings)"
+msgstr "Join the Event (Einstellungen)"
+
+#: admin/functions.php:19
+msgid "Join the Event"
+msgstr "Join the Event"
+
+#: admin/functions.php:20 admin/functions.php:47
+#: admin/menu-pages/bulk-mail.php:8 admin/menu-pages/settings.php:6
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: admin/functions.php:21 admin/menu-pages/bulk-mail.php:9
+#: admin/menu-pages/overview.php:49 admin/menu-pages/settings.php:7
+msgid "Bulk Mail"
+msgstr "E-Mail Verteiler"
+
+#: admin/functions.php:27
+msgid ""
+"Changes the sender name of mails sent by Wordpress as long as the Plugin "
+"&bdquo;Join the Event&rdquo; is active."
+msgstr ""
+"Ändert den Namen des Absenders wenn Wordpress eine E-Mail verschickt, "
+"solange das Plugin &bdquo;Join the Event&rdquo; aktiviert ist."
+
+#: admin/functions.php:31
+msgid ""
+"Changes the sender mail address of mails sent by Wordpress as long as the "
+"Plugin &bdquo;Join the Event&rdquo; is active."
+msgstr ""
+"Ändert die E-Mail Adresse des Absenders wenn Wordpress eine E-Mail "
+"verschickt, solange das Plugin &bdquo;Join the Event&rdquo; aktiviert ist."
+
+#: admin/functions.php:42 admin/menu-pages/settings.php:37
+msgid "New Guest"
+msgstr "Neuer Gast"
+
+#: admin/functions.php:44
+msgid "Receive Mail when a new guest has registered"
+msgstr "E-Mail empfangen wenn sich ein neuer Gast eingetragen hat"
+
+#: admin/functions.php:47
+msgid ""
+"<b>Currently no user will receive a confirmation mail.</b> First change this "
+"on the Setting Page of the Plugin in order to configure your personal "
+"setting:"
+msgstr ""
+"<b>Aktuell erhält kein Host eine Bestätigungs-E-mail.</b> Damit du eine E-"
+"Mail erhält musst du zuerst die allgemeine Einstellung auf der "
+"Einstellungsseite des Plugins ändern:"
+
+#: admin/functions.php:98 admin/menu-pages/bulk-mail.php:22
+#: admin/menu-pages/settings.php:45
+msgid "Guests"
+msgstr "Gäste"
+
+#: admin/functions.php:99
+msgid "Guest"
+msgstr "Gast"
+
+#: admin/menu-pages/bulk-mail.php:5
+msgid "Join the Event (Bulk Mail)"
+msgstr "Join the Event (E-Mail Verteiler)"
+
+#: admin/menu-pages/bulk-mail.php:19
+msgid "Receivers"
+msgstr "Empfänger"
+
+#: admin/menu-pages/bulk-mail.php:25
+msgid "All Hosts"
+msgstr "Alle Veranstalter"
+
+#: admin/menu-pages/bulk-mail.php:28
+msgid "Me (Single Host)"
+msgstr "Nur Ich"
+
+#: admin/menu-pages/bulk-mail.php:34
+msgid "Content"
+msgstr "Inhalt"
+
+#: admin/menu-pages/bulk-mail.php:37 admin/menu-pages/settings.php:47
+msgid "Subject"
+msgstr "Betreff"
+
+#: admin/menu-pages/bulk-mail.php:40 admin/menu-pages/settings.php:50
+msgid "Text"
+msgstr "Text"
+
+#: admin/menu-pages/bulk-mail.php:56
+msgid "Send Mails"
+msgstr "Mails senden"
+
+#: admin/menu-pages/bulk-mail.php:58
+msgid "Please check all your data before sending the mails."
+msgstr "Bitte überprüfen Sie alle Ihre Daten vor dem Senden der E-Mails."
+
+#: admin/menu-pages/bulk-mail.php:59
+msgid "Send Bulk Mail"
+msgstr "Massenversand starten"
+
+#: admin/menu-pages/overview.php:29
+msgid "Number of Confirmations:"
+msgstr "Anzahl an angemeldeten Gästen"
+
+#: admin/menu-pages/overview.php:32
+msgid "Number of Confirmations incl. Escorts:"
+msgstr "Anzahl an angemeldeten Gästen inkl. Begleitung"
+
+#: admin/menu-pages/overview.php:46
+msgid "No mail addresses available"
+msgstr "Bisher sind keine E-Mail Adressen vorhanden"
+
+#: admin/menu-pages/overview.php:49
+msgid "Generate Mail"
+msgstr "E-Mail generieren"
+
+#: admin/menu-pages/overview.php:49
+msgid "Printable Guestlist"
+msgstr "Ausdruckbare Gästeliste erstellen"
+
+#: admin/menu-pages/settings.php:17
+msgid "Form Texts"
+msgstr "Formular Text"
+
+#: admin/menu-pages/settings.php:20
+msgid "Response Text"
+msgstr "Rückmeldung"
+
+#: admin/menu-pages/settings.php:23
+msgid "Error Message"
+msgstr "Fehlernachricht"
+
+#: admin/menu-pages/settings.php:26
+msgid "Deadline Text"
+msgstr "Hinweis nach Ablauf"
+
+#: admin/menu-pages/settings.php:32
+msgid "Registration Mail"
+msgstr "Anmeldung E-Mail"
+
+#: admin/menu-pages/settings.php:35
+msgid "Hosts"
+msgstr "Veranstalter"
+
+#: admin/menu-pages/settings.php:40
+msgid "Every user receives a confirmation mail when a new guest is confirmed"
+msgstr ""
+"Alle Benutzer (Hosts) erhalten eine Best&auml;tigungsmail bei jeder neuen "
+"eingetragenen Teilnahme"
+
+#: admin/menu-pages/settings.php:42
+msgid ""
+"<b>Currently you will not receive a confirmation mail.</b> You can change "
+"this on your Profile:"
+msgstr ""
+"<b>Aktuell erhältst du keine Bestätigungs-E-mail.</b> Du kannst dies auf "
+"deinem Profil ändern:"
+
+#: admin/menu-pages/settings.php:42
+msgid "Your Profile"
+msgstr "Dein Profil"
+
+#: admin/menu-pages/settings.php:52
+msgid ""
+"<p>You can use the following shortcodes:</p><p><code>[firstname]</code> to "
+"embed the firstname<br/><code>[surname]</code> to embed the surname<br/"
+"><code>[plus]</code> to embed the amount of escorts\n"
+"                                        </p>"
+msgstr ""
+"<p>Du kannst die folgenden Shortcodes verwenden:</p><p><code>[firstname]</"
+"code> um den Vornamen einzubinden<br/><code>[surname]</code> um den "
+"Nachnamen einzubinden<br/><code>[plus]</code> um die Anzahl der Begleiter "
+"einzubinden</p>"
+
+#: admin/menu-pages/settings.php:68
+msgid "Save Settings"
+msgstr "Einstellungen Speichern"
+
+#: admin/menu-pages/settings.php:70
+msgid "Save"
+msgstr "Speichern"
+
+#: admin/menu-pages/settings.php:74
+msgid "Event Settings"
+msgstr "Veranstaltungseinstellungen"
+
+#: admin/menu-pages/settings.php:77
+msgid "Activate RVSP Form"
+msgstr "Anmeldeformular aktivieren"
+
+#: admin/menu-pages/settings.php:79
+msgid "Date"
+msgstr "Datum"
+
+#: admin/menu-pages/settings.php:82
+msgid "Max. Escorts"
+msgstr "max. Begleiter"
+
+#: admin/menu-pages/settings.php:85
+msgid "Facebook Page/Event Link"
+msgstr "Facebook Seite/Veranstaltungslink"
+
+#: admin/menu-pages/settings.php:88
+msgid "ICS-File"
+msgstr "ICS-Kalenderdatei"
+
+#: admin/menu-pages/settings.php:90
+msgid "No file found."
+msgstr "Keine Datei verfügbar."
+
+#: admin/menu-pages/settings.php:93
+msgid "Upload File"
+msgstr "Datei hochladen"
+
+#: admin/menu-pages/settings.php:94
+msgid "Remove File"
+msgstr "Datei entfernen"
+
+#: admin/post-types/guest.php:5
+msgid "Guest Data"
+msgstr "Informationen zum Gast"
+
+#: admin/post-types/guest.php:11 form/jte-form.php:11
+#: templates/guestlist.php:18
+msgid "First Name"
+msgstr "Vorname"
+
+#: admin/post-types/guest.php:14 form/jte-form.php:14
+#: templates/guestlist.php:17
+msgid "Surname"
+msgstr "Nachname"
+
+#: admin/post-types/guest.php:17 form/jte-form.php:17
+#: templates/guestlist.php:20
+msgid "Mail Address"
+msgstr "E-Mail Adresse "
+
+#: admin/post-types/guest.php:20
+msgid "Guest plus"
+msgstr "Begleitung"
+
+#: form/jte-form.php:8
+msgid "Personal Information"
+msgstr "Persönliche Angaben"
+
+#: form/jte-form.php:19
+msgid "Number of Escorts"
+msgstr "Anzahl an BegleiterInnen"
+
+#: form/jte-form.php:26
+msgid "Submit"
+msgstr "Eintragen"
+
+#: join-the-event.php:38
+msgid ""
+"Thank you for using &bdquo;Join the Event&rdquo;! You can now use the RSVP-"
+"Form by using the shortcode <code>[join-the-event]</code>."
+msgstr ""
+"Schön das du jetzt &bdquo;Join the Event&rdquo; verwendest! Du kannst dein "
+"Anmeldeformular mit dem folgenden Shortcode einbinden: <code>[join-the-"
+"event]</code>"
+
+#: join-the-event.php:89
+msgid "Add the eventform to your sidebar."
+msgstr "Fügt das Formular zu deiner Sidebar hinzu."
+
+#: mail/functions.php:15
+#, php-format
+msgid "%s and %d more guests will take part on your event"
+msgstr "%s und %d weitere Gäste haben sich für die Veranstaltung angemeldet"
+
+#: mail/functions.php:16
+#, php-format
+msgid ""
+"<p>Hello together,</p><p>%s and %d more guests will take part on your event."
+"</p><p>For more information please visit "
+msgstr ""
+"<p>Hallo zusammen,</p><p>%s und %d weitere Gäste haben sich für die "
+"Veranstaltung angemeldet.</p><p>Weitere Informationen gibt es hier: "
+
+#: mail/functions.php:18
+#, php-format
+msgid "%s and %d more guest will take part on your event"
+msgstr "%s und %d weiterer Gast haben sich für die Veranstaltung angemeldet"
+
+#: mail/functions.php:19
+#, php-format
+msgid ""
+"<p>Hello together,</p><p>%s and %d more guest will take part on your event.</"
+"p><p>For more information please visit "
+msgstr ""
+"<p>Hallo zusammen,</p><p>%s und %d weiterer Gast haben sich für die "
+"Veranstaltung angemeldet.</p><p>Weitere Informationen gibt es hier: "
+
+#: mail/functions.php:21
+#, php-format
+msgid "%s will take part on your event"
+msgstr "%s hat sich für die Veranstaltung angemeldet"
+
+#: mail/functions.php:22
+#, php-format
+msgid ""
+"<p>Hello together,</p><p>%s will take part on your event.</p><p>For more "
+"information please visit "
+msgstr ""
+"<p>Hallo zusammen,</p><p>%s hat sich für die Veranstaltung angemeldet.</"
+"p><p>Weitere Informationen gibt es hier: "
+
+#: mail/functions.php:94
+msgid "Bulk Mail has been send successfully."
+msgstr "Die E-Mails wurden erfolgreich versendet."
+
+#: mail/functions.php:97
+msgid "Data can not be empty"
+msgstr "Bitte überprüfen Sie Ihre Eingabe"
+
+#: templates/guestlist.php:15
+msgid "Nr."
+msgstr "Nr."
+
+#: templates/guestlist.php:19
+msgid "Plus"
+msgstr "Begleitung"
+
+#~ msgid "Firstname"
+#~ msgstr "Vorname"
+
+#~ msgid "Amount of Confirmations:"
+#~ msgstr "Zusagen"
+
+#~ msgid "Amount of Confirmations incl. Escorts:"
+#~ msgstr "Zusagen inkl. Begleitung"
+
+#~ msgid ""
+#~ "Changes the sender name of mails sent by Wordpress as long as the Plugin "
+#~ "&bdquo;Join the Event&brquo; is active."
+#~ msgstr ""
+#~ "Ändert den Namen des Absenders wenn Wordpress eine E-Mail verschickt, "
+#~ "solange das Plugin &bdquo;Join the Event&brquo; aktiviert ist."
+
+#~ msgid ""
+#~ "Changes the sender mail address of mails sent by Wordpress as long as the "
+#~ "Plugin &bdquo;Join the Event&brquo; is active."
+#~ msgstr ""
+#~ "Ändert die E-Mail Adresse des Absenders wenn Wordpress eine E-Mail "
+#~ "verschickt, solange das Plugin &bdquo;Join the Event&brquo; aktiviert ist."
+
+#~ msgid "New User"
+#~ msgstr "Neuer "
+
+#~ msgid "Confirmation Mail"
+#~ msgstr "Bestätigungsmail"
+
+#~ msgid "Receive Confirmation Mail"
+#~ msgstr "Bestätigungsmail erhalten"
+
+#~ msgid "thank-you"
+#~ msgstr "danke"
+
+#~ msgid "Thank you for your registration"
+#~ msgstr "Vielen Dank für Ihre Teilnahme"
+
+#~ msgid "error"
+#~ msgstr "error"
+
+#~ msgid "You are already listed as a guest"
+#~ msgstr "Sie sind bereits als Gast hinterlegt"
+
+#~ msgid "guestlist"
+#~ msgstr "gaesteliste"
+
+#~ msgid "Add File"
+#~ msgstr "Datei hinzufügen"
+
+#~ msgid ""
+#~ "<p>Hello together,</p><p>>%s and %d more guest will take part on your "
+#~ "event.</p><p>For more information please visit "
+#~ msgstr ""
+#~ "<p>Hallo zusammen,</p><p>%s und %d weiterer Gast haben sich für die "
+#~ "Veranstaltung angemeldet.</p><p>Weitere Informationen gibt es hier: "
+
+#~ msgid "%1 will take part on your event"
+#~ msgstr "%1 hat sich für das Event angemeldet"
+
+#~ msgid ""
+#~ "Alle Benutzer (Hosts) erhalten eine Best&auml;tigungsmail bei jeder neuen "
+#~ "eingetragenen Teilnahme"
+#~ msgstr ""
+#~ "Alle Benutzer (Hosts) erhalten eine Best&auml;tigungsmail bei jeder neuen "
+#~ "eingetragenen Teilnahme"

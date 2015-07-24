@@ -1,0 +1,238 @@
+/* General Form Styling
+-----------------------------------------------*/
+
+#join-the-event {
+	position: relative;
+}
+
+/* Form Spinner
+-----------------------------------------------*/
+
+#join-the-event:before {
+	content: "";
+	position: absolute;
+	z-index: 998;
+	top: 0; left: 0; right: 0;
+	width: 100%; height: 0;
+	background: rgba(255,255,255,0);	
+	-webkit-transition: height 0s linear .7s, background .2s ease-in-out .5s;
+	transition: height 0s linear .7s, background .2s ease-in-out .5s;
+}
+
+#join-the-event.sending:before {
+	height: 100%;
+	background: rgba(255,255,255,.7);
+	-webkit-transition: height 0s linear 0s, background .3s ease-in-out 0s;
+	transition: height 0s linear 0s, background .3s ease-in-out 0s;
+}
+
+#join-the-event .spinner {
+	position: absolute;
+	z-index: 999;
+	width: 0px; height: 0px;
+	top: 0; left: 0; right: 0;
+	text-align: center;
+	margin: 0 auto;
+ 	border: 1px solid #555;
+	border-radius: 50%;
+	opacity: 0;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	-webkit-animation: jte-spinner 1s infinite ease-out both;
+	animation: jte-spinner 1s infinite ease-out both;
+	-webkit-transition: all 0s linear .7s, opacity .1s ease-in-out .5s;
+	transition: all 0s linear .7s, opacity .1s ease-in-out .5s;
+}
+
+#join-the-event.sending .spinner {
+	width: 50px; height: 50px;
+	top: 50%; left: 0; right: 0;
+	opacity: 1;
+	-webkit-transition: all 0s linear .2s, opacity .3s ease-in-out .2s;
+	transition: all 0s linear .2s, opacity .3s ease-in-out .2s;
+}
+
+.spinner .bounce-wrapper {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.spinner span {
+	position: relative;
+	width: 10px;
+	height: 10px;
+	line-height: 0;
+	background-color: #555;
+	border-radius: 50%;
+	display: inline-block;
+	-webkit-animation: jte-spinner-delay 1s infinite ease-out both;
+	animation: jte-spinner-delay 1s infinite ease-out both;
+}
+
+.spinner .bounce2 {
+	-webkit-animation-delay: .15s;
+	animation-delay: .15s;
+}
+
+.spinner .bounce3 {
+	-webkit-animation-delay: .25s;
+	animation-delay: .25s;
+}
+
+@-webkit-keyframes jte-spinner {
+  0%, 20%, 100% { border: 1px solid rgba(50,50,50,0.1); }
+  60% { border: 1px solid rgba(50,50,50,.5); }
+}
+
+@keyframes jte-spinner {
+  0%, 20%, 100% { border: 1px solid rgba(50,50,50,0.1); }
+  60% { border: 1px solid rgba(50,50,50,.5); }
+}
+
+@-webkit-keyframes jte-spinner-delay {
+  0%, 20%, 100% { -webkit-transform: scale(0); }
+  60% { -webkit-transform: scale(1.0); }
+}
+
+@keyframes jte-spinner-delay {
+  0%, 20%, 100% { transform: scale(0); }
+  60% { transform: scale(1.0); }
+}
+
+/* Form Reset
+-----------------------------------------------*/
+
+#join-the-event input,
+#join-the-event label,
+#join-the-event select,
+#join-the-event button,
+#join-the-event textarea
+{
+	margin:0;
+	border:0;
+	padding:0;
+	display:inline-block;
+	vertical-align:middle;
+	white-space:normal;
+	background:none;
+	line-height:1;
+}
+
+/* Remove the stupid outer glow in Webkit */
+#join-the-event input:focus
+{
+	outline:0;
+}
+
+/* Box Sizing Reset
+-----------------------------------------------*/
+
+/* All of our custom controls should be what we expect them to be */
+#join-the-event input,
+#join-the-event textarea
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* These elements are usually rendered a certain way by the browser */
+#join-the-event button,
+#join-the-event input[type=button],
+#join-the-event input[type=submit],
+#join-the-event input[type=checkbox],
+#join-the-event input[type=radio],
+#join-the-event select
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Buttons
+-----------------------------------------------*/
+
+#join-the-event button,
+#join-the-event input[type="button"],
+#join-the-event input[type="submit"]
+{
+	/* Fix IE7 display bug */
+	overflow:visible;
+	width:auto;
+}
+
+/* Form Field Styling
+-----------------------------------------------*/
+
+#join-the-event ul {
+	margin: 0;
+	padding: 0;
+}
+
+#join-the-event li {
+	position: relative;
+	list-style-type: none;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+#join-the-event label {
+	position: absolute;
+	top: 50%;left: 15px;
+	color: #999;
+	font-size: 1.2em;
+	padding: 0 10px 0 0;
+	border-right: 1px solid #999;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+#join-the-event input {
+	width: 100%; height: 3em;
+	padding: 0 15px 0 65px;
+	font-size: 1em;
+	font-weight: 400;
+	color: #555;
+	border-radius: 5px;
+	border: 1px solid #999;
+	background: transparent;
+}
+
+#join-the-event input.error {
+	border: 1px solid red;
+}
+
+#join-the-event li.form-submit label{
+	z-index: 10;
+	color: #fff;
+	border-right: 1px solid #fff;
+}
+
+#join-the-event input[type="submit"] {
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+	background: #999;
+	box-shadow: none;
+	text-shadow: none;
+	border: none;
+}
+
+#join-the-event input[type="submit"]:hover {
+	background: #aaa;
+}
+
+#join-the-event input[type="submit"].disabled {
+	background: rgba(255,255,255,.4);
+}
+
+#join-the-event input[type="submit"].enabled {
+	background: #fff;
+	color: rgb(100,100,100);
+}
+
+#jte_wrapper {
+	text-align: center;
+}

@@ -1,0 +1,83 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+	color: #333;
+	font-size: 16px;
+	background: #fff;
+	text-align: center;
+}
+
+body:before {
+	display: none;
+}
+
+@media screen {
+	.wrapper {
+		width: 1000px;
+		margin: 0 auto;
+	}
+}
+
+@media print {
+	.wrapper {
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+
+h1 {
+	text-align: left;
+}
+
+#guestlist {
+	border: none;
+	background: #fff;
+	font-size: 0.85em;
+	text-align: left;
+	display: flex;
+}
+
+#guestlist a {
+	color: #333;
+}
+
+#guestlist td, #guestlist th {
+	border: 1px solid #555;
+	padding: 10px;
+	line-height: none;
+}
+
+#guestlist td:nth-child(3),
+#guestlist td:nth-child(4),
+#guestlist td:nth-child(6),
+#guestlist th:nth-child(3),
+#guestlist th:nth-child(4),
+#guestlist th:nth-child(6) {
+	width: 30%;
+}
+
+#guestlist td .fa {
+	line-height: 1em;
+	background: none;
+	width: auto;
+	height: auto;
+}
+
+#guestlist .check {
+	text-align: center;
+}
+
+#guestlist .surname, #guestlist .firstname, #guestlist .mail, #guestlist th {
+	text-align: left;
+}
+
+#guestlist .surname, #guestlist .firstname {
+	text-transform: capitalize;
+}
