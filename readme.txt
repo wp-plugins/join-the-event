@@ -11,7 +11,7 @@ Create a solid and Ajax supporting RSVP form for your upcoming event – printab
 == Description ==
 
 Join the Event allows you to make use of a solid RSVP form for your next event. The form supports Ajax and prevents double joining. 
-The Wordpress intuitive usable backend pages are designed with the iconic font and CSS tool [FontAwesome] (http://fortawesome.github.io/Font-Awesome/)
+The Wordpress intuitive usable backend pages are designed with the iconic font and CSS tool [FontAwesome]: (http://fortawesome.github.io/Font-Awesome/)
 
 = Features =
 *	Configure your event by date, number of escorts and attache a Facebook/Event-Link and ICS-Calendar file
@@ -47,7 +47,7 @@ Currently not. You can change a guests data manually in the backend. But this mi
 
 You can add guests whenever you want as they are treated as a custom post type.
 
-= I do not receive any mail when new guests have registered
+= I do not receive any mail when new guests have registered =
 
 Make sure that you enabled the general function on the settings page and the personal setting on your profile. This is helpful if you have multiple users as event hosts which all should receive notification mails except you.
 
