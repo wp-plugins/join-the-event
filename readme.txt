@@ -30,7 +30,7 @@ The Wordpress intuitive usable backend pages are designed with the iconic font a
 
 1. Upload 'join-the-event' to the '/wp-content/plugins/' directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Place '<?php echo do_shortcode('[join-the-event]'); ?>' in your templates or '[join-the-event]' in your page/post content or use the widget
+3. Place `<?php echo do_shortcode('[join-the-event]'); ?>` in your templates or '[join-the-event]' in your page/post content or use the widget
 4. Configure your event on the options page
 
 == Frequently Asked Questions ==
