@@ -1,6 +1,6 @@
 === Join the Event ===
 Contributors: adriankinas
-Tags: RSVP, event, form, bulk mail, gestalts
+Tags: RSVP, event, form, bulk mail, guest management
 Requires at least: 3.8
 Tested up to: 4.2.2
 License: GPLv2 or later
