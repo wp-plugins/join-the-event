@@ -11,7 +11,7 @@ Create a solid and Ajax supporting RSVP form for your upcoming event – printab
 == Description ==
 
 Join the Event allows you to make use of a solid RSVP form for your next event. The form supports Ajax and prevents double joining. 
-The Wordpress intuitive usable backend pages are designed with the iconic font and CSS tool [FontAwesome]: (http://fortawesome.github.io/Font-Awesome/)
+The Wordpress intuitive usable backend pages are designed with the iconic font and CSS tool [FontAwesome](http://fortawesome.github.io/Font-Awesome/)
 
 = Features =
 *	Configure your event by date, number of escorts and attache a Facebook/Event-Link and ICS-Calendar file
